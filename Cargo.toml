@@ -6,13 +6,13 @@ clap = {default-features = false, features = [
   "std",
   "suggestions",
   "usage"
-], version = "=4.5.0"}
+], version = "=4.5.4"}
 env_logger = {default-features = false, features = [
   "auto-color",
   "humantime"
-], version = "=0.11.2"}
+], version = "=0.11.3"}
 futures = {default-features = false, version = "=0.3.30"}
-log = {default-features = false, version = "=0.4.20"}
+log = {default-features = false, version = "=0.4.21"}
 nameof = {default-features = false, version = "=1.2.2"}
 procfs = {default-features = false, version = "=0.16.0"}
 tokio = {default-features = false, features = [
@@ -20,9 +20,9 @@ tokio = {default-features = false, features = [
   "rt",
   "signal",
   "time"
-], version = "=1.36.0"}
+], version = "=1.37.0"}
 tokio-util = {default-features = false, version = "=0.7.10"}
-zbus = {default-features = false, features = ["tokio"], version = "=4.0.1"}
+zbus = {default-features = false, features = ["tokio"], version = "=4.1.2"}
 
 [package]
 edition = "2021"
