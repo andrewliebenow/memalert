@@ -4,7 +4,7 @@
 
 ## Installation
 
-```
+```Shell
 # TODO Publish to crates.io
 cargo install --git https://github.com/andrewliebenow/memalert
 ```
@@ -13,7 +13,7 @@ cargo install --git https://github.com/andrewliebenow/memalert
 
 A desktop notification will be displayed if free system memory falls below a given threshold of total system memory.
 
-```shell
+```Shell
 ❯ memalert --help
 Displays a notification when free system memory falls below a threshold
 

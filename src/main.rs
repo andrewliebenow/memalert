@@ -2,7 +2,7 @@
 #![warn(clippy::pedantic)]
 
 use anyhow::Context;
-use clap::{command, Parser};
+use clap::Parser;
 use futures::StreamExt;
 use nameof::{name_of, name_of_type};
 use nix::{
