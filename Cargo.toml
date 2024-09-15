@@ -2,7 +2,7 @@
 anyhow = {default-features = false, features = [
   "backtrace",
   "std"
-], version = "=1.0.87"}
+], version = "=1.0.89"}
 clap = {default-features = false, features = [
   "color",
   "derive",
