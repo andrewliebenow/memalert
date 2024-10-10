@@ -1,39 +1,41 @@
 [dependencies]
-anyhow = {default-features = false, features = [
+anyhow = { default-features = false, features = [
   "backtrace",
-  "std"
-], version = "=1.0.89"}
-clap = {default-features = false, features = [
+  "std",
+], version = "=1.0.89" }
+clap = { default-features = false, features = [
   "color",
   "derive",
   "help",
   "std",
   "suggestions",
-  "usage"
-], version = "=4.5.17"}
-futures = {default-features = false, version = "=0.3.30"}
-nameof = {default-features = false, version = "=1.2.2"}
-nix = {default-features = false, features = [
+  "usage",
+], version = "=4.5.20" }
+futures = { default-features = false, version = "=0.3.31" }
+nameof = { default-features = false, version = "=1.2.2" }
+nix = { default-features = false, features = [
   "fs",
-  "process"
-], version = "=0.29.0"}
-procfs = {default-features = false, version = "=0.16.0"}
-tokio = {default-features = false, features = [
+  "process",
+], version = "=0.29.0" }
+procfs = { default-features = false, version = "=0.17.0" }
+tokio = { default-features = false, features = [
   "macros",
   "rt",
   "signal",
-  "time"
-], version = "=1.40.0"}
-tokio-util = {default-features = false, version = "=0.7.12"}
-tracing = {default-features = false, version = "=0.1.40"}
-tracing-subscriber = {default-features = false, features = [
+  "time",
+], version = "=1.40.0" }
+tokio-util = { default-features = false, version = "=0.7.12" }
+tracing = { default-features = false, version = "=0.1.40" }
+tracing-subscriber = { default-features = false, features = [
   "ansi",
   "env-filter",
   "fmt",
   "std",
-  "tracing-log"
-], version = "=0.3.18"}
-zbus = {default-features = false, features = ["tokio"], version = "=4.4.0"}
+  "tracing-log",
+], version = "=0.3.18" }
+zbus = { default-features = false, features = [
+  "tokio",
+], version = "=4.4.0" }
 
 [package]
 edition = "2021"
